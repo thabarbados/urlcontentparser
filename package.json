@@ -17,6 +17,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
+    "tslint": "^6.1.0",
     "vue-tsx-support": "^2.3.3"
   },
   "devDependencies": {
@@ -31,8 +32,13 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.1.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.2.1",
+    "stylelint-config-rational-order": "^0.1.2",
     "ts-jest": "^25.0.0",
+    "tslint-plugin-prettier": "^2.2.0",
     "vue-jest": "^4.0.0-0"
   }
 }
