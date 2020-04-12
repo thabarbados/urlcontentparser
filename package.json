@@ -16,6 +16,8 @@
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@postlight/mercury-parser": "^2.2.0",
+    "@types/postlight__mercury-parser": "^2.2.2",
     "nuxt": "^2.0.0",
     "tslint": "^6.1.0",
     "vue-tsx-support": "^2.3.3"
