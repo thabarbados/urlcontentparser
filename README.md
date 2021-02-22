@@ -1,3 +1,3 @@
-# markasread
+# Simple Url Parser
 
-> PWA with Nuxt.js and TypeScript
+> Parse url content on https://thabarbados.github.io/urlcontentparser/
