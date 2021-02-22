@@ -1,0 +1,10 @@
+{
+  "name": "simpleurlparser",
+  "short_name": "simpleurlparser",
+  "description": "Simple Url Parser",
+  "icons": [],
+  "start_url": "/urlcontentparser/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}
