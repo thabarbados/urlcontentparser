@@ -10,7 +10,8 @@
     "generate": "nuxt-ts generate",
     "start": "nuxt-ts start",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages --dist --dotfiles=true"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
@@ -18,11 +19,9 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@postlight/mercury-parser": "^2.2.0",
     "@types/postlight__mercury-parser": "^2.2.2",
-    "@types/vue-markdown": "^2.2.1",
     "babel-runtime": "^6.26.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.0",
     "tslint": "^6.1.0",
-    "vue-markdown": "^2.2.4",
     "vue-tsx-support": "^2.3.3"
   },
   "devDependencies": {
@@ -36,6 +35,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^3.1.0",
     "jest": "^24.1.0",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",

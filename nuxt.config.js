@@ -1,5 +1,9 @@
 export default {
-  mode: 'universal',
+  ssr: false,
+  target: 'static',
+  router: {
+    base: '/'
+  },
   /*
    ** Headers of the page
    */
@@ -52,6 +56,12 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {
+      const cssLoader = config.module.rules.find(rule => {
+        return rule.test.toString() === '/\\.css$/i';
+      });
+
+      delete cssLoader.oneOf[0].resourceQuery;
+    }
   }
 };

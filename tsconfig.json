@@ -10,6 +10,7 @@
     ],
     "esModuleInterop": true,
     "jsx": "preserve",
+    "jsxFactory": "VueTsxSupport",
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
