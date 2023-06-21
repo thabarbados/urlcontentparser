@@ -20,7 +20,7 @@
     "@postlight/mercury-parser": "^2.2.0",
     "@types/postlight__mercury-parser": "^2.2.2",
     "babel-runtime": "^6.26.0",
-    "nuxt": "^2.14.0",
+    "nuxt": "^3.4.3",
     "tslint": "^6.1.0",
     "vue-tsx-support": "^2.3.3"
   },
